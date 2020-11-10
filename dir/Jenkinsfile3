@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'echo "Stage deploy"'
-                sh 'ls -l .'
+                sh 'ls -l dir'
             }
         }
     }   
